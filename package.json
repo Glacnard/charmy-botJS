@@ -1,0 +1,23 @@
+{
+  "name": "charmy-bot",
+  "version": "1.0.0",
+  "description": "Handles dnd for me",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "discord.js": "^12.2.0",
+    "formidable": "^1.2.2",
+    "mongodb": "^3.5.7",
+    "natural": "^2.1.5",
+    "node-int64": "^0.4.0",
+    "request": "^2.88.2"
+  }
+}

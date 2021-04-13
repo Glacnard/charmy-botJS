@@ -18,7 +18,7 @@ client.once('ready', () => {
 });
 
 client.on('message', message => {
-    if(message.content.startsWith("<@!249656183214833675>")) {
+    if(message.content.startsWith("{Bot ID}")) {
         languageProcessing.execute(message, message.content);
     }
     else if (!message.content.startsWith(prefix) || message.author.bot) {

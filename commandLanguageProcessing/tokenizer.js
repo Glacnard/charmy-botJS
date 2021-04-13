@@ -21,9 +21,9 @@ module.exports = {
         var resultString = "";
         //console.log(result);
         if(result > .25) {
-            resultString = "You aight.";
+            resultString = "Postitive Response";
         } else {
-            resultString = "You a bitch!";
+            resultString = "Negative Response";
         }
         //console.log(analyzer.getSentiment(args));
         //console.log(analyzer.getSentiment(["Hello", "There", "Chum"]));
